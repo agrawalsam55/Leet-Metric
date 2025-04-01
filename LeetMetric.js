@@ -31,8 +31,6 @@ document.addEventListener("DOMContentLoaded", function(){
         try{
             searchButton.textContent = "Searching...";
             searchButton.disabled = true;
-            statsContainer.classList.add("hidden")
-
             // const response = await fetch(url);
             const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
             const targetUrl = 'https://leetcode.com/graphql/';
